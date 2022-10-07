@@ -1,0 +1,201 @@
+html,body{
+	background-color: whitesmoke;
+	min-width: 290px;
+	color: #4d4e53;
+	font-family: 'open Sans',Arial,Sans-serif;
+	line-height: 1.5;
+}
+/*Style du menu lateral*/
+#menulateral{
+	position: fixed;
+	min-width: 290px;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 100%;
+	border-right: solid;
+	border-color: rgba(0, 22, 22, 0.4);
+}
+#menulateral h2{
+	color: black;
+	margin: 10px;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: thin;
+}
+#menulateral ul{
+	height: 88%;
+	padding: 0;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+#menulateral ul li{
+	color: #4d4e53;
+	border-top: 1px solid;
+	list-style: none;
+	position: relative;
+	width: 100%;
+}
+#menulateral ul li a{
+	display: block;
+	padding: 10px 30px;
+	color: #4d4e53;
+	text-decoration: none;
+	cursor: pointer;
+}
+.introduction{
+	border: 1px solid black;
+	margin-left: 300px;
+}
+.contener-fluid{
+	width: 77%;
+	text-align: justify;
+	float: right;
+	margin-top: -5px;
+}
+.intro{
+	font-size: 16px;
+	font-weight: bold;
+}
+.intro a{
+	margin-left: 20%;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: green;
+	font-style: italic;
+	font-size: 1.2em;
+}
+.element{
+	font-size: 16px;
+	font-weight: bold;
+}
+.element a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: green;
+	font-style: italic;
+	font-size: 1.2em;
+}
+.attributs{
+	font-size: 16px;
+	font-weight: bold;
+}
+.attributs a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: green;
+	font-style: italic;
+	font-size: 1.2em;
+}
+.pargraphes{
+	font-size: 16px;
+	font-weight: bold;
+}
+.pargraphes a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: green;
+	font-style: italic;
+	font-size: 1.2em;
+}
+.base{
+	font-size: 16px;
+	font-weight: bold;
+}
+.base a{
+	margin-left: 30%;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: green;
+	font-style: italic;
+	font-size: 1.2em;
+}
+.blocs{
+	font-size: 16px;
+	font-weight: bold;
+}
+.blocs a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: green;
+	font-style: italic;
+	font-size: 1.2em;
+}
+.listes{
+	font-size: 16px;
+	font-weight: bold;
+}
+.listes a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: green;
+	font-style: italic;
+	font-size: 1.2em;
+}
+.medias{
+	font-size: 16px;
+	font-weight: bold;
+}
+.medias a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: green;
+	font-style: italic;
+	font-size: 1.2em;
+}
+.formulaires{
+	font-size: 16px;
+	font-weight: bold;
+}
+.formulaires a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: green;
+	font-style: italic;
+	font-size: 1.2em;
+}
+.HTML5_avance{
+	font-size: 16px;
+	font-weight: bold;
+}
+.HTML5_avance a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: green;
+	font-style: italic;
+	font-size: 1.2em;
+}
+.tableux{
+	font-size: 16px;
+	font-weight: bold;
+}
+.tableux a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: green;
+	font-style: italic;
+	font-size: 1.2em;
+}
+.api{
+	font-size: 16px;
+	font-weight: bold;
+}
+.api a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: green;
+	font-style: italic;
+	font-size: 1.2em;
+}
+.references{
+	font-size: 16px;
+	font-weight: bold;
+}
+.references a{
+	margin-left: 30%;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: green;
+	font-style: italic;
+	font-size: 1.2em;
+}

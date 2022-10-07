@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CodingBlog: Documentation HTML</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/styleHtml.css">
+</head>
+<body>
+	<main>
+		<!-- Debut du menu laterale -->
+		<div id="menulateral">
+			<h2>Documentation HTML5</h2>
+			<ul>
+				<li><a href="#" id="introHtml">Introduction</a></li>
+				<li><a href="#" id="elementhtml">Les Elements</a></li>
+				<li><a href="#">Les Attributs</a></li>
+				<li><a href="#">Les Pargraphes</a></li>
+				<li><a href="#">HTML de base</a></li>
+				<li><a href="#">Les Blocs</a></li>
+				<li><a href="#">Les Listes</a></li>
+				<li><a href="#">Les medias querys</a></li>
+				<li><a href="#">Les Formulaires</a></li>
+				<li><a href="#">HTML5 Avance</a></li>
+				<li><a href="#">Les Tableux</a></li>
+				<li><a href="#">API HTML5</a></li>
+				<li><a href="#" id="referencesHtml">References</a></li>
+			</ul>
+		</div>
+		<!-- Fin du menu lateral -->
+		<!-- Introduction -->
+		<div class="contener-fluid">
+		<div class="intro">
+			<p><a href="introHtml">**Apprentissage facile avec HTML "Essayez-le vous-même"**</a></p>
+			<p>HTML est le langage de balisage standard pour la création de pages Web.</p>
+			<p>Qu'est-ce que le HTML ?<br>
+  			  HTML signifie Hyper Text Markup Language
+  			  HTML est le langage de balisage standard pour la création de pages Web
+  			  HTML décrit la structure d'une page Web
+   			  HTML se compose d'une série d'éléments
+  			  Les éléments HTML indiquent au navigateur comment afficher le contenu
+   			  Les éléments HTML étiquettent des éléments de contenu tels que "ceci est un titre", "ceci est un paragraphe", "ceci est un lien", etc.</p>
+   			  <p>Exemple expliqué
+   				La  &lt;!DOCTYPE html &gt;déclaration définit que ce document est un document HTML5
+ 				L' &lt;html&gt;élément est l'élément racine d'une page HTML
+			    L' &lt;head&gt;élément contient des méta-informations sur la page HTML
+ 			    L' &lt;title&gt;élément spécifie un titre pour la page HTML (qui s'affiche dans la barre de titre du navigateur ou dans l'onglet de la page)
+  			    L' &lt;body&gt;élément définit le corps du document et est un conteneur pour tous les contenus visibles, tels que les titres, les paragraphes, les images, les hyperliens, les tableaux, les listes, etc.
+   			    L' &lt;h1&gt;élément définit un grand titre
+ 			    L' &lt;p&gt;élément définit un paragraphe</p>
+ 			    <p>Remarque : Certains éléments HTML n'ont pas de contenu (comme l'élément &lt;br&gt;). Ces éléments sont appelés éléments vides. Les éléments vides n'ont pas de balise de fin !</p>
+		</div>
+		<!-- Fin introduction -->
+		<!-- Element html -->
+		<div class="element">
+			<p><a href="elementhtml">**Un élément HTML est défini par une balise de début, du contenu et une balise de fin.**</a></p>
+			<p>Éléments HTML imbriquésLes éléments HTML peuvent être imbriqués (cela signifie que les éléments peuvent contenir d'autres éléments).Tous les documents HTML sont constitués d'éléments HTML imbriqués.L'exemple suivant contient quatre éléments HTML ( , &lt;html&gt; et &lt;body&gt;) :&lt;h1&gt; &lt;p&gt; </p>
+		</div>
+		<!-- Fin element html -->
+		<!-- Les Attributs -->
+		<div class="attributs">
+			<p><a href="attributsHtml">**Les attributs HTML fournissent des informations supplémentaires sur les éléments HTML.**</a></p>
+			<p>L'attribut href La &lt;a&gt;balise définit un lien hypertexte. L' hrefattribut spécifie l'URL de la page vers laquelle le lien va :</p>
+			<p>L'attribut <mark>src</mark> La &lt;img&gt;balise est utilisée pour intégrer une image dans une page HTML. L' srcattribut spécifie le chemin vers l'image à afficher :Il existe deux manières de spécifier l'URL dans l' src attribut :1. URL absolue - Liens vers une image externe hébergée sur un autre site Web. Exemple : src="https://www.w3schools.com/images/img_girl.jpg" .
+			Remarques : Les images externes peuvent être sous copyright. Si vous n'obtenez pas la permission de l'utiliser, vous enfreignez peut-être les lois sur le droit d'auteur. De plus, vous ne pouvez pas contrôler les images externes ; il peut soudainement être supprimé ou modifié.													
+			2. URL relative - Liens vers une image hébergée sur le site Web. Ici, l'URL n'inclut pas le nom de domaine. Si l'URL commence sans barre oblique, elle sera relative à la page en cours. Exemple : src="img_fille.jpg". Si l'URL commence par une barre oblique, elle sera relative au domaine. Exemple : src="/images/img_fille.jpg".
+			Conseil : Il est presque toujours préférable d'utiliser des URL relatives. Ils ne se briseront pas si vous changez de domaine.</p>
+			<p>L'attribut <mark>alt</mark> L' altattribut required pour la  &lt;img&gt; balise spécifie un texte alternatif pour une image, si l'image ne peut pas être affichée pour une raison quelconque. Cela peut être dû à une connexion lente, ou à une erreur dans l' srcattribut, ou si l'utilisateur utilise un lecteur d'écran.</p>
+			<p>Résumé du chapitre. Tous les éléments HTML peuvent avoir des attributs
+   			L' <mark>hre</mark>  fattribut de &lt;a&gt; spécifie l'URL de la page vers laquelle le lien va
+    		L' <mark>src</mark> attribut de &lt;img&gt; spécifie le chemin vers l'image à afficher
+   			Les attributs widthet fournissent des informations sur la taille des imagesheight&lt;img&gt; 
+    		L' <mark>alt</mark> attribut de &lt;img&gt; fournit un texte alternatif pour une image
+    		L' <mark>style</mark> attribut est utilisé pour ajouter des styles à un élément, tels que la couleur, la police, la taille, etc.
+    		L' <mark>lang</mark> attribut de la &lt;html&gt; balise déclare la langue de la page Web
+    		L' <mark>title</mark> attribut définit des informations supplémentaires sur un élément.</p>
+		</div>
+		<!-- Fin des Attributs -->
+		<!-- Les Pargraphes -->
+		<div class="pargraphes">
+			<p><a href="pargraphesHtml">**Un paragraphe commence toujours sur une nouvelle ligne et est généralement un bloc de texte.**</a></p>
+			<p>Paragraphes HTML
+			&lt;p&gt;L' élément HTML définit un paragraphe.
+			Un paragraphe commence toujours sur une nouvelle ligne et les navigateurs ajoutent automatiquement un espace blanc (une marge) avant et après un paragraphe.</p>
+			<p>Règles horizontales HTML
+			La &lt;hr&gt; balise définit une rupture thématique dans une page HTML et s'affiche le plus souvent sous la forme d'une règle horizontale.
+			L' &lt;hr&gt; élément est utilisé pour séparer le contenu (ou définir un changement) dans une page HTML :</p>
+			<p>Sauts de ligne HTML
+			L'élément HTML  &lt;br&gt; définit un saut de ligne.
+			Utilisez  &lt;br&gt; si vous voulez un saut de ligne (une nouvelle ligne) sans commencer un nouveau paragraphe :</p>
+			<p>Solution - L'élément HTML  &lt;pre&gt;
+			L'élément HTML  &lt;pre&gt; définit le texte préformaté.
+			Le texte à l'intérieur d'un  &lt;pre&gt; élément est affiché dans une police à largeur fixe (généralement Courier), et il préserve à la fois les espaces et les sauts de ligne :</p>
+			<p></p>
+		</div>
+		<!-- Fin des Pargraphes -->
+		<!--HTML de base -->
+		<div class="base">
+			<p><a href="baseHtml">**Documents HTML**</a><br>
+			Tous les documents HTML doivent commencer par une déclaration de type de document : &lt;!DOCTYPE html&gt;.
+			Le document HTML lui-même commence par &lt;html&gt; et se termine par &lt;/html&gt;.
+			La partie visible du document HTML est comprise entre &lt;body&gt;et &lt;/body&gt;.</p>
+			<p>La déclaration  &lt;!DOCTYPE&gt;
+			La  &lt;!DOCTYPE&gt;déclaration représente le type de document et aide les navigateurs à afficher correctement les pages Web.
+			Il ne doit apparaître qu'une seule fois, en haut de la page (avant toute balise HTML).
+			La  &lt;!DOCTYPE&gt;déclaration n'est pas sensible à la casse.
+			La  &lt;!DOCTYPE&gt;déclaration pour HTML5 est :</p>
+			<p>En-têtes HTML
+			Les titres HTML sont définis avec les balises &lt;h1&gt;to .&lt;h6&gt;
+			&lt;h1&gt;définit la rubrique la plus importante. &lt;h6&gt;définit la rubrique la moins importante : </p>
+			<p>Paragraphes HTML
+			Les paragraphes HTML sont définis avec la &lt;p&gt;balise :</p>
+			<p>Liens HTML
+			Les liens HTML sont définis avec la &lt;a&gt;balise :
+		    La destination du lien est spécifiée dans l' hrefattribut. 
+			Les attributs sont utilisés pour fournir des informations supplémentaires sur les éléments HTML.
+			Vous en apprendrez plus sur les attributs dans un chapitre ultérieur.</p>
+			<p>Images HTML
+			Les images HTML sont définies avec la &lt;img&gt;balise.
+			Le fichier source ( src), le texte alternatif ( alt), widthet heightsont fournis en tant qu'attributs :</p>
+		</div>
+		<!-- Fin HTML de base -->
+		<!-- Les Blocs -->
+		<div class="blocs">
+			<p><a href="blocsHtml">**Chaque élément HTML a une valeur d'affichage par défaut, selon le type d'élément dont il s'agit.Il existe deux valeurs d'affichage : block et inline.**</a></p>
+			<p>Éléments de niveau blocUn élément de niveau bloc commence toujours sur une nouvelle ligne et les navigateurs ajoutent automatiquement un espace (une marge) avant et après l'élément.Un élément de niveau bloc occupe toujours toute la largeur disponible (il s'étend aussi loin que possible vers la gauche et la droite).Deux éléments de bloc couramment utilisés sont : &lt;p&gt; et &lt;div&gt;.L' &lt;p&gt;élément définit un paragraphe dans un document HTML.L' &lt;div&gt;élément définit une division ou une section dans un document HTML.</p>
+			<p>Éléments en ligneUn élément en ligne ne commence pas sur une nouvelle ligne.Un élément en ligne ne prend que la largeur nécessaire.Il s'agit d'un élément &lt;span&gt; à l'intérieur d'un paragraphe.</p>
+			<p>L'élément &lt;div&gt;L' &lt;div&gt;élément est souvent utilisé comme conteneur pour d'autres éléments HTML.L' &lt;div&gt;élément n'a pas d'attributs obligatoires, mais style, classet idsont communs.Lorsqu'il est utilisé avec CSS, l' &lt;div&gt;élément peut être utilisé pour styliser des blocs de contenu :</p>
+			<p>L'élément &lt;span&gt;L' &lt;span&gt;élément est un conteneur en ligne utilisé pour marquer une partie d'un texte ou une partie d'un document.L' &lt;span&gt;élément n'a pas d'attributs obligatoires, mais style, classet idsont communs.Lorsqu'il est utilisé avec CSS, l' &lt;span&gt;élément peut être utilisé pour styliser des parties du texte :</p>		
+			<p>Résumé du chapitre
+      		Il existe deux valeurs d'affichage : block et inline
+    		Un élément de niveau bloc commence toujours sur une nouvelle ligne et occupe toute la largeur disponible
+    		Un élément en ligne ne commence pas sur une nouvelle ligne et ne prend que la largeur nécessaire
+    		L' &lt;div&gt;élément est au niveau du bloc et est souvent utilisé comme conteneur pour d'autres éléments HTML
+    		L' &lt;span&gt;élément est un conteneur en ligne utilisé pour marquer une partie d'un texte ou une partie d'un 	document</p>
+		</div>
+		<!-- Fin des Blocs -->
+		<!-- Les Listes -->
+		<div class="listes">
+			<p><a href="listesHtml">**Les listes HTML permettent aux développeurs Web de regrouper un ensemble d'éléments connexes dans des listes.**</a></p>
+			<p>Liste HTML non ordonnéeUne liste non ordonnée commence par la &lt;ul&gt;balise. Chaque élément de la liste commence par la &lt;li&gt;balise.Les éléments de la liste seront marqués par des puces (petits cercles noirs) par défaut :</p>
+			<p>Liste HTML ordonnéeUne liste ordonnée commence par la &lt;ol&gt;balise. Chaque élément de la liste commence par la &lt;li&gt;balise.Les éléments de la liste seront marqués par des numéros par défaut :</p>
+			<p>Listes de description HTMLHTML prend également en charge les listes de description.Une liste de description est une liste de termes, avec une description de chaque terme.La &lt;dl&gt;balise définit la liste de description, la &lt;dt&gt;balise définit le terme (nom) et la &lt;dd&gt; balise décrit chaque terme :</p>
+		</div>
+		<!-- Fin des Listes -->
+		<!-- Les medias querys -->
+		<div class="medias">
+			<p><a href="mediasHtml">**Le multimédia sur le Web est le son, la musique, les vidéos, les films et les animations.**</a></p>
+			<p>Qu'est-ce que le multimédia ?
+			Le multimédia se présente sous de nombreux formats différents. Il peut s'agir de presque tout ce que vous pouvez entendre ou voir, comme des images, de la musique, du son, des vidéos, des disques, des films, des animations, etc.Les pages Web contiennent souvent des éléments multimédias de différents types et formats.</p>
+			<p>Prise en charge du navigateur
+			Les premiers navigateurs Web ne prenaient en charge que le texte, limité à une seule police dans une seule couleur.Plus tard sont venus les navigateurs prenant en charge les couleurs, les polices, les images et le multimédia !</p>
+			<p>Formats multimédias
+			Les éléments multimédias (tels que l'audio ou la vidéo) sont stockés dans des fichiers multimédias.
+			La façon la plus courante de découvrir le type d'un fichier est de regarder l'extension du fichier.
+			Les fichiers multimédias ont des formats et différentes extensions comme : .wav, .mp3, .mp4, .mpg, .wmv et .avi.</p>
+			<p>Formats audio courantsMP3 est le meilleur format pour la musique enregistrée compressée. Le terme MP3 est devenu synonyme de musique numérique.Si votre site Web concerne la musique enregistrée, le MP3 est le choix.</p>
+		</div>
+		<!-- Fin des medias querys -->
+		<!-- Les Formulaires -->
+		<div class="formulaires">
+			<p><a href="formulairesHtml">**Un formulaire HTML est utilisé pour collecter les entrées des utilisateurs. L'entrée de l'utilisateur est le plus souvent envoyée à un serveur pour traitement.**</a></p>
+			<p>L'élément &lt;form&gt;L'élément HTML &lt;form&gt;est utilisé pour créer un formulaire HTML pour la saisie de l'utilisateur :L' &lt;form&gt;élément est un conteneur pour différents types d'éléments d'entrée, tels que : champs de texte, cases à cocher, boutons radio, boutons d'envoi, etc.Tous les différents éléments de formulaire sont traités dans ce chapitre </p>
+			<p>L'élément &lt;input&gt;L'élément HTML &lt;input&gt;est l'élément de formulaire le plus utilisé.Un &lt;input&gt;élément peut être affiché de plusieurs façons, selon l' type attribut.Voici quelques exemples:</p>
+			<p>Champs de texteLe &lt;input type="text"&gt;définit un champ de saisie sur une seule ligne pour la saisie de texte.Remarque : Le formulaire lui-même n'est pas visible. Notez également que la largeur par défaut d'un champ de saisie est de 20 caractères.</p>
+			<p>L'élément &lt;label&gt;Remarquez l'utilisation de l' &lt;label&gt;élément dans l'exemple ci-dessus.La &lt;label&gt;balise définit une étiquette pour de nombreux éléments de formulaire.L' &lt;label&gt;élément est utile pour les utilisateurs de lecteurs d'écran, car le lecteur d'écran lira à haute voix l'étiquette lorsque l'utilisateur se concentrera sur l'élément d'entrée.L' &lt;label&gt;élément aide également les utilisateurs qui ont des difficultés à cliquer sur de très petites régions (telles que des boutons radio ou des cases à cocher) - car lorsque l'utilisateur clique sur le texte dans l' &lt;label&gt;élément, il bascule le bouton radio/case à cocher.L' forattribut de la &lt;label&gt;balise doit être égal à l' idattribut de l' &lt;input&gt; élément pour les lier ensemble.</p>
+			<p>Boutons radioLe &lt;input type="radio"&gt;définit un bouton radio.Les boutons radio permettent à un utilisateur de sélectionner UN parmi un nombre limité de choix.</p>
+			<p>Cases à cocherLe &lt;input type="checkbox"&gt;définit une case à cocher .Les cases à cocher permettent à un utilisateur de sélectionner ZÉRO ou PLUS d'options parmi un nombre limité de choix.</p>
+			<p>Le bouton SoumettreLe &lt;input type="submit"&gt;définit un bouton pour soumettre les données du formulaire à un gestionnaire de formulaire.Le gestionnaire de formulaire est généralement un fichier sur le serveur avec un script pour le traitement des données d'entrée.Le gestionnaire de formulaire est spécifié dans l' action attribut du formulaire.</p>
+			<p>L'attribut de nom pour &lt;input&gt;Notez que chaque champ de saisie doit avoir un nameattribut pour être soumis.Si l' nameattribut est omis, la valeur du champ de saisie ne sera pas envoyée du tout.</p>
+		</div>
+		<!-- Fin des Formulaires -->
+		<!--HTML5 Avance -->
+		<div class="HTML5_avance">
+			<p><a href="avanceHtml">**Les tableaux HTML permettent aux développeurs Web d'organiser les données en lignes et en colonnes.**</a></p>
+			<p>Définir un tableau HTMLUn tableau en HTML se compose de cellules de tableau à l'intérieur de lignes et de colonnes</p>
+			<p>Cellules du tableauChaque cellule du tableau est définie par un &lt;td&gt;et une &lt;/td&gt;balise.td représente les données de table.Tout ce qui se trouve entre &lt;td&gt;et &lt;/td&gt;est le contenu de la cellule du tableau.
+            Remarque : les éléments de données du tableau sont les conteneurs de données du tableau.
+			Ils peuvent contenir toutes sortes d'éléments HTML ; texte, images, listes, autres tableaux, etc.</p>
+			<p>Lignes du tableauChaque ligne du tableau commence par un &lt;tr&gt;et se termine par une &lt;/tr&gt;balise.tr signifie ligne de tableau.Vous pouvez avoir autant de lignes que vous le souhaitez dans un tableau, assurez-vous simplement que le nombre de cellules est le même dans chaque ligne.
+			Remarque : Il peut arriver qu'une ligne ait plus ou moins de cellules qu'une autre. Vous apprendrez cela dans un chapitre ultérieur.</p>
+			<p>En-têtes de tableauParfois, vous voulez que vos cellules soient des en-têtes, dans ces cas, utilisez la &lt;th&gt;balise au lieu de la &lt;td&gt;balisePar défaut, le texte des &lt;th&gt;éléments est en gras et centré, mais vous pouvez modifier cela avec CSS.</p>
+		</div>
+		<!-- Fin HTML5 Avance -->
+		<!--Les Tableux -->
+		<div class="tableux">
+			<p><a href="tableuxHtml">**Les tableaux HTML permettent aux développeurs Web d'organiser les données en lignes et en colonnes.**</a></p>
+			<p>Définir un tableau HTMLUn tableau en HTML se compose de cellules de tableau à l'intérieur de lignes et de colonnes</p>
+			<p>Cellules du tableauChaque cellule du tableau est définie par un &lt;td&gt;et une &lt;/td&gt;balise.td représente les données de table.Tout ce qui se trouve entre &lt;td&gt;et &lt;/td&gt;est le contenu de la cellule du tableau.
+            Remarque : les éléments de données du tableau sont les conteneurs de données du tableau.
+			Ils peuvent contenir toutes sortes d'éléments HTML ; texte, images, listes, autres tableaux, etc.</p>
+			<p>Lignes du tableauChaque ligne du tableau commence par un &lt;tr&gt;et se termine par une &lt;/tr&gt;balise.tr signifie ligne de tableau.Vous pouvez avoir autant de lignes que vous le souhaitez dans un tableau, assurez-vous simplement que le nombre de cellules est le même dans chaque ligne.
+			Remarque : Il peut arriver qu'une ligne ait plus ou moins de cellules qu'une autre. Vous apprendrez cela dans un chapitre ultérieur.</p>
+			<p>En-têtes de tableauParfois, vous voulez que vos cellules soient des en-têtes, dans ces cas, utilisez la &lt;th&gt;balise au lieu de la &lt;td&gt;balisePar défaut, le texte des &lt;th&gt;éléments est en gras et centré, mais vous pouvez modifier cela avec CSS.</p>
+		</div>
+		<!-- Fin des Tableux -->
+		<!--API HTML5 -->
+		<div class="api">
+			<p><a href="apiHtml">**L'API de géolocalisation HTML est utilisée pour localiser la position d'un utilisateur.**</a></p>
+			<p>Localiser la position de l'utilisateurL'API de géolocalisation HTML est utilisée pour obtenir la position géographique d'un utilisateur.Comme cela peut compromettre la confidentialité, le poste n'est pas disponible à moins que l'utilisateur ne l'approuve.
+			Remarque : La géolocalisation est plus précise pour les appareils avec GPS, comme les smartphones.</p>
+			<p>Utilisation de la géolocalisation HTMLLa getCurrentPosition()méthode est utilisée pour renvoyer la position de l'utilisateur.L'exemple ci-dessous renvoie la latitude et la longitude de la position de l'utilisateur :Exemple expliqué :
+   			 	Vérifiez si la géolocalisation est prise en charge
+    			Si elle est prise en charge, exécutez la méthode getCurrentPosition(). Si ce n'est pas le cas, affichez un message à l'utilisateur
+   			 	Si la méthode getCurrentPosition() réussit, elle renvoie un objet de coordonnées à la fonction spécifiée dans le paramètre (showPosition)
+   			 	La fonction showPosition() affiche la latitude et la longitude
+				L'exemple ci-dessus est un script de géolocalisation très basique, sans gestion des erreurs.</p>
+			<p>Gestion des erreurs et des rejets.
+			Le deuxième paramètre de la getCurrentPosition()méthode est utilisé pour gérer les erreurs. Il spécifie une fonction à exécuter si elle ne parvient pas à obtenir l'emplacement de l'utilisateur :Informations spécifiques à l'emplacement
+			Cette page a montré comment afficher la position d'un utilisateur sur une carte.
+			La géolocalisation est également très utile pour les informations spécifiques à l'emplacement, telles que :
+    		Informations locales à jour
+    		Affichage des points d'intérêt à proximité de l'utilisateur
+    		Navigation pas à pas (GPS)</p>
+    		<p>La méthode getCurrentPosition() - Renvoie des données
+			La getCurrentPosition()méthode renvoie un objet en cas de succès. Les propriétés de latitude, de longitude et de précision sont toujours renvoyées. Les autres propriétés sont renvoyées si elles sont disponibles :</p>
+			<p>Objet de géolocalisation - Autres méthodes intéressantesL'objet Geolocation possède également d'autres méthodes intéressantes :
+    		watchPosition()- Renvoie la position actuelle de l'utilisateur et continue de renvoyer la position mise à jour lorsque l'utilisateur se déplace (comme le GPS dans une voiture).
+    		clearWatch()- Arrête la watchPosition()méthode.
+			L'exemple ci-dessous montre la watchPosition()méthode. Vous avez besoin d'un appareil GPS précis pour tester cela (comme un smartphone):</p>
+		</div>
+		<!-- Fin API HTML5 -->
+		<!--References -->
+		<div class="references">
+			<p><a href="referencesHtml">**Références HTML**</a><br>
+			Liste de balises HTML <br>	
+			Attributs HTML<br>
+			Attributs globaux HTML<br>
+			Prise en charge du navigateur HTML<br>
+			Événements HTML<br>
+			Couleurs HTML<br>
+			Canevas HTML<br>
+			HTML Audio/Vidéo<br>
+			Doctypes HTML<br>
+			Jeux de caractères HTML<br>
+			Encodage d'URL HTML<br>
+			Codes de langue HTML<br>
+			Messagerie HTTP<br>
+			Méthodes HTTP<br>
+			Convertisseur PX en EM
+			Raccourcis clavier</p>
+		</div>
+		<!-- Fin References -->
+	</div>	
+	</main>	
+	</body>
+	</html>
